@@ -26,8 +26,8 @@ You should have the following in your Gemfile:
     # integrate bundler with capistrano
     gem 'capistrano-bundler'
 
-    # if you are using RBENV
-    gem 'capistrano-rbenv', "~> 2.0" 
+    # if you are using rvm
+    gem 'rvm1-capistrano3'
 
     # Use Unicorn as our app server
     gem 'unicorn'
